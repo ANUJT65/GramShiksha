@@ -47,7 +47,7 @@
 - Our Understanding is that we are providing remote education to students until government/organizations have enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
 ## **WHAT ARE THE PROBLEMS??**
-![Problemstatement](https://github.com/user-attachments/assets/f9b42f51-fe85-460f-b3e3-b579f2dc44d1)
+![image](https://github.com/user-attachments/assets/70f6e3e8-9e57-4ac3-b305-b9c5a7cd3487)
 
 
 
