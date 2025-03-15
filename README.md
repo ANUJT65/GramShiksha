@@ -131,3 +131,7 @@
 - Students have efficient access to AI-generated resources, enhancing the overall learning experience.
 - Government gets data of the students and the resources needed for their better learning experience,
 - so that they could enhance the infrastructure in these remote areas.
+
+## **BUSINESS RELEVANCE**
+![image](https://github.com/user-attachments/assets/576e8e3e-2945-4e26-91ad-fe35204a5056)
+
