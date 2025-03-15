@@ -11,7 +11,7 @@
 | 10 | [Research on Low Latency Video Streaming](#our-research-on-low-latency-video-streaming)                             |
 | 11 | [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)   |
 | 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--engagement-enhancer-module-major-data-consumption-will-only-be-in-retrieval-of-resources) |
-| 13 | [Advantages of Azure CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
+| 13 | [Advantages of AWS CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
 |14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)                                                                  |
@@ -53,15 +53,19 @@
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
 
+
+## **Our Unique Selling Propositions (USPs)**
+![image](https://github.com/user-attachments/assets/17fe14c4-df98-45d6-b24b-4cf8224605ce)
+
+
+
 ## **With these things in mind We have divided our project into 2 parts**
 - **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
-- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)**
+- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using AWS CDN( low data consumption)**
 - Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
 
-
-## **Our Unique Selling Propositions (USPs)**
 ## 1)) LOW LATENCY AND LOW DATA LIVE STREAMING OF LECTURES
 
 ![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
@@ -71,16 +75,13 @@
 
 
 ## **UNIQUENESS OF OUR SOLUTION**
-![image](https://github.com/user-attachments/assets/17fe14c4-df98-45d6-b24b-4cf8224605ce)
-
-
 
 
 
 1. **Lower Internet Consumption for Live Steams:(research is given below)**
    - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
 1. **AI Resource generation at lowest data and retrieval at lowest latency:(research is given below)**
-   - With the use of **Azure CDN** and prestorage of the  ai generated resources in **Azure Blob and MongoDB Atlas** while uploading the video , consumption on student side is reduced, only consumption is for 
+   - With the use of **AWS CDN** and prestorage of the  ai generated resources in **AWS dynamo db and Aws s3** while uploading the video , consumption on student side is reduced, only consumption is for 
      retrieval of databases.
 2. **Adaptive Learning Quiz Module:**
    - Developed an adaptive learning quiz system where the difficulty of the next question is determined by previously answered questions.
@@ -101,7 +102,7 @@
 ### Teacher Side
 - **Online Lecture and Recorded Lecture:**
   - Conduct live classes using smart boards and streaming technologies (e.g., WebRTC).
-  - Record lectures for later access; lectures are stored in cloud services (e.g., Azure CDN).
+  - Record lectures for later access; lectures are stored in cloud services (e.g., AWS CDN).
 
 - **Teacher Dashboard:**
   - **Time Table Generation:** Create and manage class schedules.
@@ -114,8 +115,8 @@
 
 - **AI-Generated Resources Storage(RAG BASED ):**
   - AI-generated resources (e.g., images, quizzes) are created once and stored in:
-    - **MongoDB:** For structured data storage.
-    - **Microsoft Azure Blob Storage:** For storing large files and assets.
+    - **AWS Dynamo DB:** For structured data storage.
+    - **AWS S3:** For storing large files and assets.
 
 ### Student Side
 - **Engagement Enhancer Module: (ALL RAGS BASED)**
