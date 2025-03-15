@@ -99,6 +99,14 @@
 ## **USER FLOW**
 ![SIH2024smalldiagram drawio (4)](https://github.com/user-attachments/assets/d7059509-b558-494e-a98f-6e495eae58ae)
 
+
+![image](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
+
+
+
+
+![image](https://github.com/user-attachments/assets/41e9cc4f-291b-452d-bc07-095108443801)
+
 ### Teacher Side
 - **Online Lecture and Recorded Lecture:**
   - Conduct live classes using smart boards and streaming technologies (e.g., WebRTC).
