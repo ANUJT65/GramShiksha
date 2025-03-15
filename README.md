@@ -105,34 +105,8 @@
 
 
 
-![image](https://github.com/user-attachments/assets/41e9cc4f-291b-452d-bc07-095108443801)
+![image](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
 
-### Teacher Side
-- **Online Lecture and Recorded Lecture:**
-  - Conduct live classes using smart boards and streaming technologies (e.g., WebRTC).
-  - Record lectures for later access; lectures are stored in cloud services (e.g., AWS CDN).
-
-- **Teacher Dashboard:**
-  - **Time Table Generation:** Create and manage class schedules.
-  - **Student Management:**
-    - Generate personal reports for students.
-    - Track attendance and monitor student engagement.
-    - Send SMS for lectures to parents application.
-    - Student Demographics, location and resource management
-  - **Feedback Mechanism:** Receive insights on student performance, including dropout risk scores.
-
-- **AI-Generated Resources Storage(RAG BASED ):**
-  - AI-generated resources (e.g., images, quizzes) are created once and stored in:
-    - **AWS Dynamo DB:** For structured data storage.
-    - **AWS S3:** For storing large files and assets.
-
-### Student Side
-- **Engagement Enhancer Module: (ALL RAGS BASED)**
-  - **Adaptive Quiz with timely engaement monitoring:** Generate quizzes that adapt in difficulty based on student performance at interval at 2-5 minutes.
-  - **Image Generation:** Create visual aids passing relevant keywords and key sentences from viddeo to  Stable Diffusion image generation model.
-  - **Mind Map Generation:** Generate mind maps to visualize concepts for better understanding.
-  - **AI Avatar:** Provide interactive support for vocational learning and personality development.
-  - **Illustrated Notes:** Deliver structured notes including titles, subheadings, summaries, and flowcharts.
 
 ### Overall Flow
 - Continuous interaction between teachers and students through live classes and stored resources.
