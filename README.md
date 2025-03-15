@@ -1,21 +1,3 @@
-# aixplain
-
-## Theme chosen
-![image](https://github.com/user-attachments/assets/5a1e7ff5-9646-4e46-bc9f-04d3b7008969)
-
-
-
-# Title: **GramShiksha: Providing Fast Education To Remotest Places**  
-
-<div style="display: flex; justify-content: space-around;">
-
-  <img src="https://github.com/user-attachments/assets/07b289e6-fa25-477f-a049-de0edfa18c7f" alt="Image 1" width="45%">
-
-  <img src="https://github.com/user-attachments/assets/2bf7caa2-95ed-45c0-9170-20d6d695dd8a" alt="Image 2" width="45%">
-
-</div>
-
-
 | #  | Index                                                                                                              |
 |----|--------------------------------------------------------------------------------------------------------------------|                                        
 | 2  | [Some Considerations](#some-considerations-before-we-begin)                                                        |
@@ -42,14 +24,25 @@
 
 
 
+# aixplain
+
+## Theme chosen
+![image](https://github.com/user-attachments/assets/5a1e7ff5-9646-4e46-bc9f-04d3b7008969)
+
+
+
+# Title: **GramShiksha: Providing Fast Education To Remotest Places**  
+
+![image](https://github.com/user-attachments/assets/d1d56117-f101-48c8-97ee-a4031ed46e8d)
+
+
+
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - Our Understanding is that we are providing remote education to students until government/organizations have enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
 ## **WHAT ARE THE PROBLEMS??**
-![image](https://github.com/user-attachments/assets/70f6e3e8-9e57-4ac3-b305-b9c5a7cd3487)
-
-
+![image](https://github.com/user-attachments/assets/97ab097f-6fd8-4694-8a00-f04003520954)
 
 
 ## **OUR FOCUS CONSIDERING THESE PROBLEMS**
@@ -78,6 +71,12 @@
 
 
 ## **UNIQUENESS OF OUR SOLUTION**
+![image](https://github.com/user-attachments/assets/17fe14c4-df98-45d6-b24b-4cf8224605ce)
+
+
+
+
+
 1. **Lower Internet Consumption for Live Steams:(research is given below)**
    - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
 1. **AI Resource generation at lowest data and retrieval at lowest latency:(research is given below)**
