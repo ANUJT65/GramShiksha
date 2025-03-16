@@ -99,14 +99,10 @@
 ## **USER FLOW**
 ![Copy of ai_agent (2)](https://github.com/user-attachments/assets/c04b32c3-55c5-4751-94de-65a47cefc748)
 
+![image](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
+
 
 ![image](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
 
 
 ### Overall Flow
