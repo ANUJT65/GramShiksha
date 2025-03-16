@@ -97,10 +97,11 @@
    - Helps students choose careers, assists in personality development, and vocational learning.
   
 ## **USER FLOW**
-![SIH2024smalldiagram drawio (4)](https://github.com/user-attachments/assets/d7059509-b558-494e-a98f-6e495eae58ae)
+![Copy of ai_agent (2)](https://github.com/user-attachments/assets/c04b32c3-55c5-4751-94de-65a47cefc748)
 
 
 ![image](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
+
 
 
 
