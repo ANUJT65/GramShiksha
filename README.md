@@ -118,5 +118,43 @@
 
 
 ## **Features**
+- cover page
+- ![image](https://github.com/user-attachments/assets/80dc8a13-bcd3-4715-aff8-09ef858448f1)
+
+
+1 Student side
+- dashboard
+- ![image](https://github.com/user-attachments/assets/e72bb09a-73e6-4c56-aeab-68edc4e1bace)
+- live class
+- ![image](https://github.com/user-attachments/assets/1b37ae5a-0b01-47fc-b01b-733edbe7ec8c)
+- video audio
+- ![image](https://github.com/user-attachments/assets/57926557-860c-4201-b3e2-7efeea31f860)
+-  Lecture/videos/maths clicked
+- ![image](https://github.com/user-attachments/assets/a8dee461-b37c-4b54-801d-f6ab7763b56b)
+- Multilingual translations
+- ![image](https://github.com/user-attachments/assets/67fff6ab-64c4-4084-8a62-9435fd94997d)
+- Video with live quiz 
+- ![image](https://github.com/user-attachments/assets/1f9ea4da-c21b-4aa2-bedc-f8a249320654)
+- chat with images and with answering doubts
+- ![image](https://github.com/user-attachments/assets/47b72947-9a34-412d-9a1c-b22ef814d9d7)
+- ![image](https://github.com/user-attachments/assets/af45b976-f2a7-4def-a818-83e5b2aa295a)
+- ai generated notes sample
+- https://drive.google.com/file/d/11nxv9hMeBDFH65ZhKDf3PM3FCVirDgnq/view?usp=sharing
+- ![image](https://github.com/user-attachments/assets/b2aaa24c-6034-4799-9c3b-19d3a3f0b4a8)
+- ai generated mindmaps
+- ![image](https://github.com/user-attachments/assets/36bc9be2-c8b2-4b66-b63d-b68e7f1184ec)
+
+
+
+
+
+
+
+
+
+- ![image](https://github.com/user-attachments/assets/ffcadd87-292c-48cf-bd76-5f45c7205371)
+
+
+
 
 
