@@ -112,7 +112,7 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ![User Flow 2](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
 
-![User Flow 3](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
+![User Flow 3](https://github.com/user-attachments/assets/40e9fa3c-64cf-43f5-ab7d-c6b6087f0d24)
 
 ---
 
