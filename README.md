@@ -156,5 +156,28 @@
 
 
 
+## Teacher side
+
+![image](https://github.com/user-attachments/assets/0fe08347-d978-45f9-a392-9db637766779)
+
+teacher also has language support and meet joining link as shown on student side:
+![image](https://github.com/user-attachments/assets/905c6aa2-a222-4109-b14a-48dfd85a1647)
+
+teacher can upload the lectures and see the resources here:
+![image](https://github.com/user-attachments/assets/21d4c676-cf75-40a3-b9ca-5146f62cbb30)
+
+analytics for each student for each video is shown with engagement score of student:
+![image](https://github.com/user-attachments/assets/8abea242-a0ee-47aa-9abf-4e98ef79f094)
+
+view the ai generated resources:
+![image](https://github.com/user-attachments/assets/82d9db89-99e5-4a99-92c9-477467d707cc)
+
+images notes and flowcharts too which appear in chat as shown above:
+![image](https://github.com/user-attachments/assets/d4688dd2-7a2d-49c5-bdda-ad2101ceeee6)
+
+
+
+all these resources are only generated once.....and put into database from teacher side so only data requirement on student side is of retrieval of resources from databases.
+
 
 
