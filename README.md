@@ -1,183 +1,178 @@
-| #  | Index                                                                                                              |
-|----|--------------------------------------------------------------------------------------------------------------------|                                        
-| 2  | [Some Considerations](#some-considerations-before-we-begin)                                                        |
-| 3  | [Problems](#what-are-the-problems)                                                                                 |
-| 4  | [Our Focus Considering These Problems](#our-focus-considering-these-problems)                                       |
-| 5  | [Project Division](#with-these-things-in-mind-we-have-divided-our-project-into-2-parts)                             |
-| 6  | [Unique Selling Propositions (USPs)](#our-unique-selling-propositions-usps)                                         |
-| 7  | [Uniqueness of Our Solution](#uniqueness-of-our-solution)                                                          |
-| 8  | [Architecture and Use Cases](#architecture-and-use-cases)                                                          |
-| 9  | [Methodology & Technology Stack](#methodology-tech-stack)                                                          |
-| 10 | [Research on Low Latency Video Streaming](#our-research-on-low-latency-video-streaming)                             |
-| 11 | [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)   |
-| 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--engagement-enhancer-module-major-data-consumption-will-only-be-in-retrieval-of-resources) |
-| 13 | [Advantages of AWS CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
-|14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
-| 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
-| 16 | [Present Implementation](#present-implementation)                                                                  |
-| 17 | [Next Implementation](#next-implementation)                                                                  |
-| 18 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)                                                                          |
-| 19 | [Impact And Benefits](#Impact-And-Benefits)                                                                        |
-| 20 | [DEMO VIDEO](#DEMO-VIDEO)                                                                                          |
-| 21 | [FeedbackForm](#feedbackform)                                                                                     |
+# GramShiksha: Providing Fast Education To Remotest Places
 
+## Index
+| #  | Section Title                                             |
+|----|-----------------------------------------------------------|
+| 1  | [Theme Chosen](#theme-chosen)                             |
+| 2  | [Project Overview](#project-overview)                     |
+| 3  | [Considerations](#some-considerations-before-we-begin)     |
+| 4  | [Identified Problems](#what-are-the-problems)             |
+| 5  | [Focus Areas](#our-focus-considering-these-problems)      |
+| 6  | [Unique Selling Propositions](#our-unique-selling-propositions-usps) |
+| 7  | [Project Modules](#with-these-things-in-mind-we-have-divided-our-project-into-2-parts) |
+| 8  | [Live Streaming Module](#1--low-latency-and-low-data-live-streaming-of-lectures) |
+| 9  | [Engagement Enhancer Module](#2--engagement-enhancer-module-low-data-ai-resource-generation) |
+| 10 | [Uniqueness of Our Solution](#uniqueness-of-our-solution)  |
+| 11 | [User Flow](#user-flow)                                   |
+| 12 | [Overall Flow](#overall-flow)                             |
+| 13 | [Business Relevance](#business-relevance)                 |
+| 14 | [Features - Student Side](#features-student-side)         |
+| 15 | [Features - Teacher Side](#teacher-side)                  |
 
+---
 
+## Theme Chosen
+![Theme Image](https://github.com/user-attachments/assets/5a1e7ff5-9646-4e46-bc9f-04d3b7008969)
 
-# aixplain
+---
 
-## Theme chosen
-![image](https://github.com/user-attachments/assets/5a1e7ff5-9646-4e46-bc9f-04d3b7008969)
+## Project Overview
+**Title: GramShiksha – Providing Fast Education To Remotest Places**
 
+![Project Title Image](https://github.com/user-attachments/assets/d1d56117-f101-48c8-97ee-a4031ed46e8d)
 
+GramShiksha aims to bridge the gap in remote education by offering low-data, high-impact solutions that enable quality teaching and learning even in underserved areas.
 
-# Title: **GramShiksha: Providing Fast Education To Remotest Places**  
+---
 
-![image](https://github.com/user-attachments/assets/d1d56117-f101-48c8-97ee-a4031ed46e8d)
+## Some Considerations Before We Begin
+- **Infrastructure Assumptions:**  
+  Teachers are assumed to have sufficient resources/internet and the necessary infrastructure to stream lectures.
+- **Educational Outreach:**  
+  The project supports remote education until governments or organizations can collect enough data on student demographics and attendance to develop comprehensive infrastructure.
 
+---
 
+## What Are the Problems?
+![Problems Overview](https://github.com/user-attachments/assets/97ab097f-6fd8-4694-8a00-f04003520954)
 
-## **Some Considerations before we begin**
-- We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
-- Our Understanding is that we are providing remote education to students until government/organizations have enough data on student demographics/attendance etc to provide proper infrastructure to the students.
+---
 
-## **WHAT ARE THE PROBLEMS??**
-![image](https://github.com/user-attachments/assets/97ab097f-6fd8-4694-8a00-f04003520954)
+## Our Focus Considering These Problems
+1. **Provide AI-Generated Resources:**  
+   A one-stop solution for teachers and students with AI-generated study materials—saving time and reducing costs compared to physical resources.
+2. **Implement Low-Internet Services:**  
+   Develop solutions that perform well under limited internet connectivity.
+3. **Enhance Engagement (Major Problem in Online Education):**  
+   Implement modules to encourage active learning and student participation.
+4. **Identify At-Risk Students:**  
+   Monitor student performance and engagement to identify those who may require additional support or one-on-one counseling.
+5. **Analytics for Decision Making:**  
+   Deliver detailed analytics on student demographics and resource usage to inform government and organizational decisions.
 
+---
 
-## **OUR FOCUS CONSIDERING THESE PROBLEMS**
+## Our Unique Selling Propositions (USPs)
+![USPs Image](https://github.com/user-attachments/assets/17fe14c4-df98-45d6-b24b-4cf8224605ce)
 
-1. **Provide AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
-2. **Implement Low-Internet Services:** Develop solutions that function well with limited internet connectivity.
-3. **Enhance Engagement(MAJOR PROBLEM IN ONLINE EDUCATION):** Even if we provide all resources , many students dont really utilize these things, so we have various modules to encourage students to learn.
-4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
-5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
+---
 
+## With These Things in Mind We Have Divided Our Project Into 2 Parts
+1. **Live (Low Latency) Streaming Module:**  
+   - Uses websockets/WebRTC for low data consumption and real-time interaction.  
+   - Enables a classroom experience where teachers conduct live sessions with effective human interaction.
+2. **Pre-Recorded Lecture & Engagement Enhancer Module:**  
+   - Utilizes AWS CDN for efficient video playback with low data usage.  
+   - Provides AI-generated resources and engagement tools to boost learning interest.
 
-## **Our Unique Selling Propositions (USPs)**
-![image](https://github.com/user-attachments/assets/17fe14c4-df98-45d6-b24b-4cf8224605ce)
+---
 
+## 1) Low Latency and Low Data Live Streaming of Lectures
+![Live Streaming](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
 
+---
 
-## **With these things in mind We have divided our project into 2 parts**
-- **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
-- Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
-- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using AWS CDN( low data consumption)**
-- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
+## 2) Engagement Enhancer Module (Low Data, AI Resource Generation)
+![Engagement Enhancer](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
+---
 
-## 1)) LOW LATENCY AND LOW DATA LIVE STREAMING OF LECTURES
+## Uniqueness of Our Solution
+1. **Lower Internet Consumption for Live Streams:**  
+   - Remote online classes consume just **60-100 MB** per hour compared to the typical 600 MB-1 GB.
+2. **Efficient AI Resource Generation and Retrieval:**  
+   - AI-generated resources are stored on AWS DynamoDB and AWS S3, minimizing data usage on the student side.
+3. **Adaptive Learning Quiz Module:**  
+   - The quiz system adapts difficulty based on previous answers, ensuring personalized learning.
+4. **Individual Attention and Counseling:**  
+   - Analytics on engagement and attendance help teachers identify and support weaker students through one-on-one sessions.
+5. **Visualization of Key Concepts:**  
+   - AI generates images to help students visualize important concepts.
+6. **After-Class Comprehensive Notes:**  
+   - AI-generated notes, mind maps, and flowcharts provide streamlined post-lecture reviews.
+7. **RAG-Based Doubt Assistant:**  
+   - A RAG-based chatbot addresses student queries promptly.
+8. **Vocational Learning AI Avatar:**  
+   - Assists students with career choices, personality development, and vocational learning.
 
-![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
-## 2)) ENGAGEMENT ENHANCER MODULE LOW DATA AI RESOURCE GENERATION
-![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
+---
 
+## User Flow
+![User Flow](https://github.com/user-attachments/assets/f58fa53e-af53-4739-bc8d-07b05be9c6e1)
 
+![User Flow 2](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
 
-## **UNIQUENESS OF OUR SOLUTION**
+![User Flow 3](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
 
+---
 
+## Overall Flow
+- **Continuous Interaction:**  
+  Live classes and stored resources ensure ongoing teacher-student engagement.
+- **Data-Driven Teaching:**  
+  Teachers adjust strategies based on detailed student interaction data.
+- **Efficient Resource Access:**  
+  Students enjoy quick, low-data access to AI-generated resources.
+- **Government Insight:**  
+  Collected data assists in making informed decisions for infrastructural improvements in remote areas.
 
-1. **Lower Internet Consumption for Live Steams:(research is given below)**
-   - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
-1. **AI Resource generation at lowest data and retrieval at lowest latency:(research is given below)**
-   - With the use of **AWS CDN** and prestorage of the  ai generated resources in **AWS dynamo db and Aws s3** while uploading the video , consumption on student side is reduced, only consumption is for 
-     retrieval of databases.
-2. **Adaptive Learning Quiz Module:**
-   - Developed an adaptive learning quiz system where the difficulty of the next question is determined by previously answered questions.
-3. **Individual Attention and Counseling:**
-   - Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling and doubt sessions.
-4. **Visualization of Key Concepts:**
-   - Generation of images related to key concepts, helping students visualize key points.
-5. **After-Class Comprehensive Notes:**
-   - Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
-6. **RAG-Based Doubt Assistant:**
-   - Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
-7. **Vocational Learning AI Avatar:**
-   - Helps students choose careers, assists in personality development, and vocational learning.
-  
-## **USER FLOW**
-![Copy of ai_agent (3)](https://github.com/user-attachments/assets/f58fa53e-af53-4739-bc8d-07b05be9c6e1)
+---
 
+## Business Relevance
+![Business Relevance](https://github.com/user-attachments/assets/2e0270c1-6314-4957-b769-20752dc4a751)
 
-![image](https://github.com/user-attachments/assets/09d67933-606e-4a4c-8be4-7f9d37dc406a)
+---
 
+## Features - Student Side
+- **Cover Page:**  
+  ![Cover Page](https://github.com/user-attachments/assets/80dc8a13-bcd3-4715-aff8-09ef858448f1)
+- **Dashboard:**  
+  ![Dashboard](https://github.com/user-attachments/assets/e72bb09a-73e6-4c56-aeab-68edc4e1bace)
+- **Live Class Interface:**  
+  ![Live Class](https://github.com/user-attachments/assets/1b37ae5a-0b01-47fc-b01b-733edbe7ec8c)
+- **Video/Audio Playback:**  
+  ![Video Audio](https://github.com/user-attachments/assets/57926557-860c-4201-b3e2-7efeea31f860)
+- **Lecture Selection (e.g., Maths):**  
+  ![Lecture Selection](https://github.com/user-attachments/assets/a8dee461-b37c-4b54-801d-f6ab7763b56b)
+- **Multilingual Translations:**  
+  ![Multilingual](https://github.com/user-attachments/assets/67fff6ab-64c4-4084-8a62-9435fd94997d)
+- **Video with Live Quiz:**  
+  ![Live Quiz](https://github.com/user-attachments/assets/1f9ea4da-c21b-4aa2-bedc-f8a249320654)
+- **Chat with Images and Doubt Resolution:**  
+  ![Chat](https://github.com/user-attachments/assets/47b72947-9a34-412d-9a1c-b22ef814d9d7)  
+  ![Chat Additional](https://github.com/user-attachments/assets/af45b976-f2a7-4def-a818-83e5b2aa295a)
+- **AI-Generated Notes Sample:**  
+  [View Sample](https://drive.google.com/file/d/11nxv9hMeBDFH65ZhKDf3PM3FCVirDgnq/view?usp=sharing)  
+  ![Notes Sample](https://github.com/user-attachments/assets/b2aaa24c-6034-4799-9c3b-19d3a3f0b4a8)
+- **AI-Generated Mindmaps:**  
+  ![Mindmaps](https://github.com/user-attachments/assets/36bc9be2-c8b2-4b66-b63d-b68e7f1184ec)
+- **Additional Resource Images:**  
+  ![Additional Resource](https://github.com/user-attachments/assets/ffcadd87-292c-48cf-bd76-5f45c7205371)
 
-![image](https://github.com/user-attachments/assets/40e3409c-5af8-400f-8cc6-a8f6bccfb062)
+---
 
-
-### Overall Flow
-- Continuous interaction between teachers and students through live classes and stored resources.
-- Teachers receive data on student interactions to adjust teaching strategies.
-- Students have efficient access to AI-generated resources, enhancing the overall learning experience.
-- Government gets data of the students and the resources needed for their better learning experience,
-- so that they could enhance the infrastructure in these remote areas.
-
-## **BUSINESS RELEVANCE**
-![image](https://github.com/user-attachments/assets/2e0270c1-6314-4957-b769-20752dc4a751)
-
-
-## **Features**
-- cover page
-- ![image](https://github.com/user-attachments/assets/80dc8a13-bcd3-4715-aff8-09ef858448f1)
-
-
-1 Student side
-- dashboard
-- ![image](https://github.com/user-attachments/assets/e72bb09a-73e6-4c56-aeab-68edc4e1bace)
-- live class
-- ![image](https://github.com/user-attachments/assets/1b37ae5a-0b01-47fc-b01b-733edbe7ec8c)
-- video audio
-- ![image](https://github.com/user-attachments/assets/57926557-860c-4201-b3e2-7efeea31f860)
--  Lecture/videos/maths clicked
-- ![image](https://github.com/user-attachments/assets/a8dee461-b37c-4b54-801d-f6ab7763b56b)
-- Multilingual translations
-- ![image](https://github.com/user-attachments/assets/67fff6ab-64c4-4084-8a62-9435fd94997d)
-- Video with live quiz 
-- ![image](https://github.com/user-attachments/assets/1f9ea4da-c21b-4aa2-bedc-f8a249320654)
-- chat with images and with answering doubts
-- ![image](https://github.com/user-attachments/assets/47b72947-9a34-412d-9a1c-b22ef814d9d7)
-- ![image](https://github.com/user-attachments/assets/af45b976-f2a7-4def-a818-83e5b2aa295a)
-- ai generated notes sample
-- https://drive.google.com/file/d/11nxv9hMeBDFH65ZhKDf3PM3FCVirDgnq/view?usp=sharing
-- ![image](https://github.com/user-attachments/assets/b2aaa24c-6034-4799-9c3b-19d3a3f0b4a8)
-- ai generated mindmaps
-- ![image](https://github.com/user-attachments/assets/36bc9be2-c8b2-4b66-b63d-b68e7f1184ec)
-
-
-
-
-
-
-
-
-
-- ![image](https://github.com/user-attachments/assets/ffcadd87-292c-48cf-bd76-5f45c7205371)
-
-
-
-## Teacher side
-
-![image](https://github.com/user-attachments/assets/0fe08347-d978-45f9-a392-9db637766779)
-
-teacher also has language support and meet joining link as shown on student side:
-![image](https://github.com/user-attachments/assets/905c6aa2-a222-4109-b14a-48dfd85a1647)
-
-teacher can upload the lectures and see the resources here:
-![image](https://github.com/user-attachments/assets/21d4c676-cf75-40a3-b9ca-5146f62cbb30)
-
-analytics for each student for each video is shown with engagement score of student:
-![image](https://github.com/user-attachments/assets/8abea242-a0ee-47aa-9abf-4e98ef79f094)
-
-view the ai generated resources:
-![image](https://github.com/user-attachments/assets/82d9db89-99e5-4a99-92c9-477467d707cc)
-
-images notes and flowcharts too which appear in chat as shown above:
-![image](https://github.com/user-attachments/assets/d4688dd2-7a2d-49c5-bdda-ad2101ceeee6)
-
-
-
-all these resources are only generated once.....and put into database from teacher side so only data requirement on student side is of retrieval of resources from databases.
-
+## Features - Teacher Side
+- **Teacher Dashboard:**  
+  ![Teacher Dashboard](https://github.com/user-attachments/assets/0fe08347-d978-45f9-a392-9db637766779)
+- **Language Support & Meeting Link:**  
+  ![Language & Meeting](https://github.com/user-attachments/assets/905c6aa2-a222-4109-b14a-48dfd85a1647)
+- **Lecture Upload and Resource Access:**  
+  ![Upload & Resources](https://github.com/user-attachments/assets/21d4c676-cf75-40a3-b9ca-5146f62cbb30)
+- **Student Analytics & Engagement Scores:**  
+  ![Analytics](https://github.com/user-attachments/assets/8abea242-a0ee-47aa-9abf-4e98ef79f094)
+- **View AI-Generated Resources:**  
+  ![AI Resources](https://github.com/user-attachments/assets/82d9db89-99e5-4a99-92c9-477467d707cc)
+- **Visual Aids in Chat (Images, Notes, Flowcharts):**  
+  ![Visual Aids](https://github.com/user-attachments/assets/d4688dd2-7a2d-49c5-bdda-ad2101ceeee6)
 
 
