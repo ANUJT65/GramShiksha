@@ -16,8 +16,9 @@
 | 11 | [User Flow](#user-flow)                                   |
 | 12 | [Overall Flow](#overall-flow)                             |
 | 13 | [Business Relevance](#business-relevance)                 |
-| 14 | [Features - Student Side](#features-student-side)         |
-| 15 | [Features - Teacher Side](#teacher-side)                  |
+| 14 | [Frontend Implementation - Student Side](#frontend-implementation---student-side) |
+| 15 | [Frontend Implementation - Teacher Side](#frontend-implementation---teacher-side) |
+
 
 ---
 
@@ -133,7 +134,7 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ---
 
-## Features - Student Side
+## Frontend Implementation - Student Side
 - **Cover Page:**  
   ![Cover Page](https://github.com/user-attachments/assets/80dc8a13-bcd3-4715-aff8-09ef858448f1)
 - **Dashboard:**  
@@ -162,7 +163,7 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ---
 
-## Features - Teacher Side
+## Frontend Implementation - Teacher Side
 - **Teacher Dashboard:**  
   ![Teacher Dashboard](https://github.com/user-attachments/assets/0fe08347-d978-45f9-a392-9db637766779)
 - **Language Support & Meeting Link:**  
