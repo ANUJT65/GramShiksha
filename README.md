@@ -140,6 +140,8 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
   ![Dashboard](https://github.com/user-attachments/assets/e72bb09a-73e6-4c56-aeab-68edc4e1bace)
 - **Live Class Interface:**  
   ![Live Class](https://github.com/user-attachments/assets/1b37ae5a-0b01-47fc-b01b-733edbe7ec8c)
+- **Websockets low latency screen sharing alternative:**  
+  ![Additional Resource](https://github.com/user-attachments/assets/ffcadd87-292c-48cf-bd76-5f45c7205371)
 - **Video/Audio Playback:**  
   ![Video Audio](https://github.com/user-attachments/assets/57926557-860c-4201-b3e2-7efeea31f860)
 - **Lecture Selection (e.g., Maths):**  
@@ -156,8 +158,7 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
   ![Notes Sample](https://github.com/user-attachments/assets/b2aaa24c-6034-4799-9c3b-19d3a3f0b4a8)
 - **AI-Generated Mindmaps:**  
   ![Mindmaps](https://github.com/user-attachments/assets/36bc9be2-c8b2-4b66-b63d-b68e7f1184ec)
-- **Additional Resource Images:**  
-  ![Additional Resource](https://github.com/user-attachments/assets/ffcadd87-292c-48cf-bd76-5f45c7205371)
+
 
 ---
 
