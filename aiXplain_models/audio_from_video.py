@@ -1,7 +1,7 @@
 import time
 from aixplain.factories import ModelFactory
 
-def extract_audio_from_video(video_data, model_id="653684e161ddee7e38347e7b", poll_interval=5):
+def extract_audio_from_video(video_data, model_id="66311fda6eb563279c574b71", poll_interval=5):
     """
     Extracts audio from a given video using the specified AI model asynchronously.
 
