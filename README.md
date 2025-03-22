@@ -16,8 +16,8 @@
 | 11 | [User Flow](#user-flow)                                   |
 | 12 | [Overall Flow](#overall-flow)                             |
 | 13 | [Business Relevance](#business-relevance)                 |
-| 14 | [Features - FRONTEND Student Side](#features-student-side)         |
-| 15 | [Features - FRONTEND Teacher Side](#teacher-side)                  |
+| 14 | [Features - Student Side](#features-student-side)         |
+| 15 | [Features - Teacher Side](#teacher-side)                  |
 
 ---
 
