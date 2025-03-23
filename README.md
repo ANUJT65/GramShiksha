@@ -115,6 +115,8 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ## Proposed Solution Flow
 
+Following is the proposed flow of our solution demonstrating the student & teacher side as well as their individual features and use of custom made Aixplain agents in the same.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d5e6792-aaaf-4b4c-9c49-f2ff0f548639" alt="Proposed Solution Flow 1" width="49%">
   <img src="https://github.com/user-attachments/assets/58c049f9-2665-48db-a937-f89b871b160e" alt="Proposed Solution Flow 2" width="49%">
@@ -124,6 +126,8 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 
 ## AI Agent Creation Methodology
+
+We have developed 5 custom made Aixplain agents and integrated them in various segments of our system. Following is a detailed description of the same.
 
 ![image](https://github.com/user-attachments/assets/e732451d-1ab3-4659-b061-0a92c775af21)
 
