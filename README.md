@@ -1,5 +1,14 @@
 # GramShiksha: Providing Fast Education To Remotest Places
 
+## Contributors
+
+- **Sneha Jain**
+- **Siddhartha Chakrabarty**
+- **Anuj Tadkase**  
+- **Pratham Gadkari**  
+- **Suraj Chavan**  
+
+
 ## Index
 | #  | Section Title                                             |
 |----|-----------------------------------------------------------|
