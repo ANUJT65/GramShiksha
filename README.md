@@ -113,9 +113,11 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ## Proposed Solution Flow
 
-![image](https://github.com/user-attachments/assets/7d5e6792-aaaf-4b4c-9c49-f2ff0f548639)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7d5e6792-aaaf-4b4c-9c49-f2ff0f548639" alt="Proposed Solution Flow 1" width="49%">
+  <img src="https://github.com/user-attachments/assets/58c049f9-2665-48db-a937-f89b871b160e" alt="Proposed Solution Flow 2" width="49%">
+</p>
 
-![image](https://github.com/user-attachments/assets/58c049f9-2665-48db-a937-f89b871b160e)
 
 ## AI Agent Creation Methodology
 
