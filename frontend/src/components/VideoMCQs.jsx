@@ -12,7 +12,7 @@ const VideoMCQs = ({ type, videoId }) => {
         setLoading(true);
         const difficulty = type.toLowerCase();
         const response = await axios.get(
-          `https://backendfianlsih-ema2eqdrc8gwhzcg.canadacentral-01.azurewebsites.net/dy_db/get_mcqs_${difficulty}/${videoId}`
+          `http://localhost:5000/dy_db/get_mcqs_${difficulty}/${videoId}`
         );
         setMcqs(response.data[`mcqs_${difficulty}`]);
         setError(null);
