@@ -122,6 +122,17 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 
 ---
 
+
+## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
+
+![SIH2024-Page-1 drawio (4)](https://github.com/user-attachments/assets/e9ce8663-2737-4c5e-839a-228eec0dbc7d)
+
+
+
+## **USER FLOW**
+![SIH2024smalldiagram drawio (4)](https://github.com/user-attachments/assets/d7059509-b558-494e-a98f-6e495eae58ae)
+
+
 ## Proposed Solution Flow
 
 Following is the proposed flow of our solution demonstrating the student & teacher side as well as their individual features and use of custom made Aixplain agents in the same.
