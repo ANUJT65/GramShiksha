@@ -123,7 +123,7 @@ GramShiksha aims to bridge the gap in remote education by offering low-data, hig
 ---
 
 
-## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
+## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN) ((no COSMOS DB NO COSMOS))**
 
 ![SIH2024-Page-1 drawio (4)](https://github.com/user-attachments/assets/e9ce8663-2737-4c5e-839a-228eec0dbc7d)
 
